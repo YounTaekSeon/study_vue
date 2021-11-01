@@ -1,4 +1,6 @@
 <template>
+<!-- Located right side of whole view -->
+<!-- Show Search, SearchDetail, SearchList, Info, InfoExe,Infohealth -->
     Content
   <div v-if=searchUser>
     <SearchDetail />
@@ -12,7 +14,10 @@
 <script>
 import Search from './Search.vue'
 import SearchDetail from './SearchDetail.vue'
+import SearchList from './SearchList.vue'
 import Info from './Info.vue'
+import InfoExercise from './InfoExercise.vue'
+import InfoHealth from './InfoHealth.vue'
 
 
 export default {
@@ -20,7 +25,10 @@ export default {
     components: {
     Search,
     SearchDetail,
-    Info
+    SearchList,
+    Info,
+    InfoExercise,
+    InfoHealth
   },
   data() {
     return {

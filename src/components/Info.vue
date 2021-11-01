@@ -1,4 +1,6 @@
 <template>
+<!-- Located right side of Content.vue -->
+<!-- Layout about selected user's information and can change the view between Exercise and Health -->
   <div>
     Info
     <div v-if=infoHealth>

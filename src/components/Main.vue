@@ -1,4 +1,6 @@
 <template>
+<!-- Layout of whole view -->
+<!-- Left side: Profile, Right side: Content -->
   <div class="main__profile">
     <Profile />
   </div>

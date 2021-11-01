@@ -1,4 +1,8 @@
 <template>
+<!-- Located left side of whole view -->
+<!-- View medical Professor information. Located left side of view -->
+<!-- Select the search menu got the datas from search.json to login.js -->
+<!-- Can logout -->
   <div class="profile">
     <div id="profile__top">
       <img src="" alt="Logo">

@@ -8,6 +8,7 @@ import InfoHealth from '../components/InfoHealth.vue'
 import InfoExercise from '../components/InfoExercise.vue'
 import Search from '../components/Search.vue'
 import SearchDetail from '../components/SearchDetail.vue'
+import SearchList from '../components/SearchList.vue'
 
 const routes = [
   {
@@ -39,6 +40,11 @@ const routes = [
     path: '/searchdetail',
     name: 'SearchDetail',
     component: SearchDetail
+  },
+  {
+    path: '/searchlist',
+    name: 'SearchList',
+    component: SearchList
   },
   {
     path: '/info',

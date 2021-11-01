@@ -1,4 +1,8 @@
 <template>
+<!-- Change the view from SearchList.vue to searchDetail.vue -->
+<!-- Detail info about searched user in search.vue -->
+<!-- Has user information about name, level, sex, height, weight, birth etc -->
+<!-- Send userID to Info.vue to InfoExercise.vue and InfoHealth.vue -->
   <div>
     SearchDetail
     <head>

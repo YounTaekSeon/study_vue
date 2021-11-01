@@ -1,4 +1,5 @@
 <template>
+<!-- Exercise information about user selected in SearchList.vue -->
   <div>
     InfoExercise
   </div>

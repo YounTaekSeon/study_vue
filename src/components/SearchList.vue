@@ -5,12 +5,7 @@
 <!-- Can select the user who medical Professor want to see -->
   <div>
     SearchList
-    <head>
 
-    </head>
-    <body>
-
-    </body>
   </div>
 </template>
 

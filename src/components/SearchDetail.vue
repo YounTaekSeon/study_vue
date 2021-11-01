@@ -5,12 +5,6 @@
 <!-- Send userID to Info.vue to InfoExercise.vue and InfoHealth.vue -->
   <div>
     SearchDetail
-    <head>
-
-    </head>
-    <body>
-
-    </body>
   </div>
 </template>
 

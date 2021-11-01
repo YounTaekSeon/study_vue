@@ -12,11 +12,10 @@ import store from "./store";
 // font-awesome과 관련된 import를 정의
 // 무료 아이콘을 뷰 컴포넌트 형태로 제공해주는 라이브러리
 import { library } from "@fortawesome/fontawesome-svg-core";
-import { faFolder, faFile } from "@fortawesome/free-solid-svg-icons";
+import { fas } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
-library.add(faFolder);
-library.add(faFile);
+library.add(fas)
 
 createApp(App)
   .component("font-awesome-icon", FontAwesomeIcon)

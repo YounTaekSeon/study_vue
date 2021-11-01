@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "type": "button",
+        "name": "배틀정보"
+    },
+    {
+    "id": 2,
+    "type": "button",
+    "name": "그룹 검색"
+    },
+    {
+    "id": 3,
+    "type": "button",
+    "name": "배틀 정보"
+    }
+]

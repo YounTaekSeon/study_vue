@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "type": "button",
+        "name": "페이스북 로그인"
+    },
+    {
+    "id": 2,
+    "type": "button",
+    "name": "구글 로그인"
+    },
+    {
+    "id": 3,
+    "type": "button",
+    "name": "네이버 로그인"
+    },
+    {
+      "id": 4,
+      "type": "button",
+      "name": "카카오톡 로그인"
+    }
+]

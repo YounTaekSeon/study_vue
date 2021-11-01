@@ -1,6 +1,12 @@
 <template>
   <div>
     SearchDetail
+    <head>
+
+    </head>
+    <body>
+
+    </body>
   </div>
 </template>
 

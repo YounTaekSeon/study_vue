@@ -12,6 +12,7 @@
 </template>
 
 <script>
+// 레이아웃 위치 정해줘야함
 import Search from './Search.vue'
 import SearchDetail from './SearchDetail.vue'
 import SearchList from './SearchList.vue'

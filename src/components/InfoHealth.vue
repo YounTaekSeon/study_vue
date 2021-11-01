@@ -6,6 +6,7 @@
 </template>
 
 <script>
+// SearchID에 맞게 정보 가져와야함
 export default {
   name: 'InfoHealth',
 

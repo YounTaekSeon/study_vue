@@ -29,6 +29,7 @@
 </template>
 
 <script>
+// 나중에 검색 메뉴 json js로 불러와야함
   export default {
     name: 'Profile',
 

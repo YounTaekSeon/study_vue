@@ -13,6 +13,7 @@
 </template>
 
 <script>
+// 운동 건강 정보 뷰를 불러와야함
 import InfoExercise from './InfoExercise.vue'
 import InfoHealth from './InfoHealth.vue'
 export default {

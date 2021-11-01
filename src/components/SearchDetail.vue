@@ -15,6 +15,7 @@
 </template>
 
 <script>
+// 받아온 유저ID게 맞게 정보 가져와야함
 export default {
   name: 'SearchDetail',
 

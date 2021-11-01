@@ -18,6 +18,7 @@
 </template>
 
 <script>
+// 유저 검색하고 해당 이름 값을 SearchList 쪽으로 보내주고 뷰 넘겨줘야함
   export default {
     name: 'Search',
 

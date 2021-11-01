@@ -9,6 +9,7 @@
   </div>
 </template>
 <script>
+// 나중에 레이아웃 위치 지정해줘야함
 import Profile from './Profile.vue'
 import Content from './Content.vue'
 export default {

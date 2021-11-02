@@ -2,13 +2,25 @@
 <!-- Located right side of whole view -->
 <!-- Show Search, SearchDetail, SearchList, Info, InfoExe,Infohealth -->
     Content
-  <div v-if=searchUser>
+
+  <!-- <div v-if=searchUser>
     <SearchDetail />
     <Info />
   </div>
   <div v-else>
     <Search />
+  </div> -->
+
+<!-- Test code -->
+  <div>
+    <SearchDetail />
+    <Info />
   </div>
+  <!-- <div>
+    <Search />
+  </div> -->
+
+
 </template>
 
 <script>

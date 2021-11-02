@@ -923,20 +923,6 @@
   dependencies:
     "@fortawesome/fontawesome-common-types" "^0.2.36"
 
-"@fortawesome/free-brands-svg-icons@^5.15.4":
-  "integrity" "sha512-f1witbwycL9cTENJegcmcZRYyawAFbm8+c6IirLmwbbpqz46wyjbQYLuxOc7weXFXfB7QR8/Vd2u5R3q6JYD9g=="
-  "resolved" "https://registry.npmjs.org/@fortawesome/free-brands-svg-icons/-/free-brands-svg-icons-5.15.4.tgz"
-  "version" "5.15.4"
-  dependencies:
-    "@fortawesome/fontawesome-common-types" "^0.2.36"
-
-"@fortawesome/free-regular-svg-icons@^5.15.4":
-  "integrity" "sha512-9VNNnU3CXHy9XednJ3wzQp6SwNwT3XaM26oS4Rp391GsxVYA+0oDR2J194YCIWf7jNRCYKjUCOduxdceLrx+xw=="
-  "resolved" "https://registry.npmjs.org/@fortawesome/free-regular-svg-icons/-/free-regular-svg-icons-5.15.4.tgz"
-  "version" "5.15.4"
-  dependencies:
-    "@fortawesome/fontawesome-common-types" "^0.2.36"
-
 "@fortawesome/free-solid-svg-icons@^5.15.4":
   "integrity" "sha512-JLmQfz6tdtwxoihXLg6lT78BorrFyCf59SAwBM6qV/0zXyVeDygJVb3fk+j5Qat+Yvcxp1buLTY5iDh1ZSAQ8w=="
   "resolved" "https://registry.npmjs.org/@fortawesome/free-solid-svg-icons/-/free-solid-svg-icons-5.15.4.tgz"
@@ -1428,7 +1414,7 @@
     "@vue/compiler-core" "3.2.20"
     "@vue/shared" "3.2.20"
 
-"@vue/compiler-sfc@^3.0.0", "@vue/compiler-sfc@^3.0.0-beta.14", "@vue/compiler-sfc@3.2.20":
+"@vue/compiler-sfc@^3.0.0-beta.14", "@vue/compiler-sfc@3.2.20":
   "integrity" "sha512-03aZo+6tQKiFLfunHKSPZvdK4Jsn/ftRCyaro8AQIWkuxJbvSosbKK6HTTn+D2c3nPScG155akJoxKENw7rftQ=="
   "resolved" "https://registry.npmjs.org/@vue/compiler-sfc/-/compiler-sfc-3.2.20.tgz"
   "version" "3.2.20"

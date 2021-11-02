@@ -15,7 +15,7 @@ yarn serve
 yarn build
 ```
 ### If you have problem when use vue ui
-Modify the code in .vuerc at C:\Users\mcst
+Modify the code in .vuerc at C:\Users\Administrator
 ```
 "packageManager": "npm", to "packageManager": "yarn",
 ```
@@ -23,7 +23,6 @@ Modify the code in .vuerc at C:\Users\mcst
 ```
   "useTaobaoRegistry": false, to   "useTaobaoRegistry": true,
 ```
-
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).

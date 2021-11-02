@@ -17,17 +17,6 @@ yarn serve
 ```
 yarn build
 ```
-### If you have problem when use vue ui
-Modify the code in .vuerc at C:\Users\Administrator
-"packageManager": "npm", to
-```
-"packageManager": "yarn",
-```
-### If the error repeats
-"useTaobaoRegistry": false, to
-```
-"useTaobaoRegistry": true,
-```
 
 ### If you have problem when use vue ui
 

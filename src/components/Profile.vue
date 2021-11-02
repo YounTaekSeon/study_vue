@@ -38,15 +38,15 @@
         toggle: this.enter,
         searches: [{
             content: '사용자 검색',
-            link: '/user/contentID'
+            link: ''
           },
           {
             content: '그룹검색',
-            link: '/group/contentID'
+            link: ''
           },
           {
             content: '배틀정보',
-            link: '/battle/contentID'
+            link: ''
           },
         ]
       };

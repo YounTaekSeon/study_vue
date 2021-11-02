@@ -4,8 +4,8 @@ import Main from '../components/Main.vue'
 import Content from '../components/Content.vue'
 import Profile from '../components/Profile.vue'
 import Info from '../components/Info.vue'
-// import InfoHealth from '../components/InfoHealth.vue'
-// import InfoExercise from '../components/InfoExercise.vue'
+import InfoHealth from '../components/InfoHealth.vue'
+import InfoExercise from '../components/InfoExercise.vue'
 import Search from '../components/Search.vue'
 import SearchDetail from '../components/SearchDetail.vue'
 import SearchList from '../components/SearchList.vue'
@@ -17,7 +17,7 @@ const routes = [
     component: Login
   },
   {
-    path: '/Home',
+    path: '/search',
     name: 'Main',
     component: Main
   },
@@ -51,16 +51,16 @@ const routes = [
     name: 'Info',
     component: Info
   },
-  // {
-  //   path: '/infohealth',
-  //   name: 'InfoHealth',
-  //   component: InfoHealth
-  // },
-  // {
-  //   path: '/infoexercise',
-  //   name: 'InfoExercise',
-  //   component: InfoExercise
-  // },
+  {
+    path: '/infohealth',
+    name: 'InfoHealth',
+    component: InfoHealth
+  },
+  {
+    path: '/infoexercise',
+    name: 'InfoExercise',
+    component: InfoExercise
+  },
 ]
 
 const router = createRouter({

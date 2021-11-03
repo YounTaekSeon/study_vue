@@ -29,7 +29,7 @@
 </template>
 
 <script>
-// 나중에 검색 메뉴 json js로 불러와야함
+
   export default {
     name: 'Profile',
 
@@ -38,11 +38,11 @@
         toggle: this.enter,
         searches: [{
             content: '사용자 검색',
-            link: ''
+            link: 'main'
           },
           {
             content: '그룹검색',
-            link: ''
+            link: 'main',
           },
           {
             content: '배틀정보',
@@ -53,7 +53,7 @@
     },
 
     mounted() {
-
+      //this.$forceUpdate();
     },
 
     methods: {

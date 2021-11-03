@@ -20,16 +20,23 @@
       </div>
     </div>
   </div>
+  <button id="haveuserid" @click="useridok">user id ok</button>
+  <div id="testdata" v-if="userid">
+            <test />
+  </div>
 </template>
 
 <script>
+import test from "./test.vue"
   // SearchID에 맞게 정보 가져와야함
   export default {
     name: 'InfoHealth',
-
+    components: {
+      test
+    },
     data() {
       return {
-
+        userid: false
       };
     },
 
@@ -38,6 +45,9 @@
     },
 
     methods: {
+      useridok() {
+        userid=true;
+      }
 
     },
   };

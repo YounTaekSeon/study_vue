@@ -26,21 +26,21 @@ const routes = [
     name: 'Main',
     component: Main
   },
-  {
-    path: '/profile',
-    name: 'Profile',
-    component: Profile
-  },
+  // {
+  //   path: '/profile',
+  //   name: 'Profile',
+  //   component: Profile
+  // },
   {
     path: '/content',
     name: 'Content',
     component: Content
   },
-  {
-    path: '/search',
-    name: 'Search',
-    component: Search
-  },
+  // {
+  //   path: '/search',
+  //   name: 'Search',
+  //   component: Search
+  // },
   {
     path: '/searchdetail',
     name: 'SearchDetail',

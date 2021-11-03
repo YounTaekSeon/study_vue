@@ -20,8 +20,8 @@
 
     <!-- Test code -->
     <div class="layout__info__button">
-      <button id="test1" @click="callhealth">건강정보</button>
-      <button id="test2" @click="callexercise">운동정보</button>
+      <button id="test1" @click="callhealth">testhealthInfo</button>
+      <button id="test2" @click="callexercise">testExerciseInfo</button>
     </div>
     <div id="testdiv">
       <div id="healthdiv" v-if="displayhealth">

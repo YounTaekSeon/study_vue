@@ -1,0 +1,42 @@
+????
+1. $forceUpdate 메소드를 이용하여 Content뷰를 강제로 Reload
+2. 혹은 App.vue에서 Profile을 선언하고 Login에서만 display=false를 사용 => 근데 이렇게 해도 Content.vue 초기화를 못할듯
+Profile에서 버튼 누르면 Content 강제로 Reload 하고 Profile은 계속 떠있어야하고 아무튼 그렇게 해야함
+레이아웃 위치 지정
+어디에서든 Profile 버튼을 누르면 전부 날리고 화면 바꿔야하니까 2번이 맞는 것같은데 Content.vue 초기화를 어떻게 하지?
+Profile은 App.vue에 선언이 된 상태인데 다른 vue를 초기화 가능한가?
+
+Content.vue
+테스트 코드 주석처리해서 깔끔하게 만들기
+
+Info.vue
+주석처리 지우기
+테스트 코드 정리
+버튼으로 화면전환할 때 처음부터 다 불러내지 말고 click 이벤트 발생 때마다 불러오기
+ID가 있으면 초기 health 창 데이터 보여주고 else 사용자 선택
+
+InfoExercise.vue
+InfoHealth.vue
+ID 맞춰 데이터 불러오기
+
+Login.vue
+SNS 로그인 기능
+
+Main.vue
+Profile과 Content 나누고 width값 정해서 text, item이 정해진 layout 안 넘어가도록(참고 드림코딩 했던거)
+만약 loginID 없이 홈페이지 들어오려고 하면 아무것도 안 보여줘야함.
+
+Profile.vue
+사용자 검색/ 그룹 검색 누를 때마다 데이터 날리고 화면 리셋
+로그아웃 -> 데이터 싹 다 날리고 /# 으로 보내야함
+내 정보
+프로필 고정
+
+Search.vue
+데이터 주고받기
+
+SearchDetail.vue
+데이터 주고받기
+
+SearchList.vue
+주고받기

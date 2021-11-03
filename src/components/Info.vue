@@ -20,16 +20,14 @@
 
     <!-- Test code -->
     <div class="layout__info__button">
-      <button id="test1" @click="callhealth">건강정보</button>
-      <button id="test2" @click="callexercise">운동정보</button>
+      <li id="info__button" v-for="(button, idx) in buttons" :key="{idx}">
+        <router-link :to='button.link'>{{ button.content }}</router-link>
+      </li>
     </div>
-    <div id="testdiv">
-      <div id="healthdiv" v-if="displayhealth">
-        <InfoHealth />
-      </div>
-      <div id="exercisediv" v-if="displayexercise">
-        <InfoExercise />
-      </div>
+    <div>
+      <transition :name="transitionName">
+
+      </transition>
     </div>
   </div>
 </template>
@@ -38,7 +36,6 @@
   // 운동 건강 정보 뷰를 불러와야함
   import InfoExercise from './InfoExercise.vue'
   import InfoHealth from './InfoHealth.vue'
-
   export default {
     components: {
       InfoExercise,
@@ -48,8 +45,16 @@
 
     data() {
       return {
-        displayexercise:false,
-        displayhealth:true
+        toggle: this.enter,
+        buttons: [{
+            content: '운동 정보',
+            link: ''
+          },
+          {
+            content: '건강 정보',
+            link: ''
+          },
+        ]
       };
     },
 
@@ -58,14 +63,7 @@
     },
 
     methods: {
-      callhealth(){
-        this.displayexercise=false;
-        this.displayhealth=true;
-      },
-      callexercise(){
-        this.displayexercise=true;
-        this.displayhealth=false;
-      }
+
     },
   };
 </script>

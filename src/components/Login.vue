@@ -24,19 +24,19 @@
         toggle: this.enter,
         logins: [{
             content: '페이스북 로그인',
-            link: '/search'
+            link: '/main'
           },
           {
             content: '구글 로그인',
-            link: '/search'
+            link: '/main'
           },
           {
             content: '네이버 로그인',
-            link: '/search'
+            link: '/main'
           },
           {
             content: '카카오톡 로그인',
-            link: '/search'
+            link: '/main'
           }
         ]
       };

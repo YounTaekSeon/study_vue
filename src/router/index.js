@@ -9,8 +9,13 @@ import InfoExercise from '../components/InfoExercise.vue'
 import Search from '../components/Search.vue'
 import SearchDetail from '../components/SearchDetail.vue'
 import SearchList from '../components/SearchList.vue'
-
+import Test from '../components/test.vue'
 const routes = [
+  {
+    path: '/test',
+    name: 'Test',
+    component: Test
+  },
   {
     path: '/',
     name: 'Login',
